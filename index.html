@@ -14,34 +14,18 @@
 
 	<body style ="color: black">
 
-		<div id ="main">
-	
-			<section id="contact" class="one">
-				<div class="container">
-
-					<header>
-						<h2>Contact</h2>
-					</header>
-	
-						<p>Get in touch with me about interesting projects or recruit me for a team.</p>
-
-						<form method="post" id="contactform" action="https://Lunarus16.pythonanywhere.com/rest">
-							<div class="row">
-								<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" id="name" /></div>
-								<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" id="email" /></div>
-								<div class="12u$">
-									<textarea name="message" placeholder="Message" id="message"></textarea>
-								</div>
-								<div class="12u$">
-									<input type="submit" value="Send Message" id="submit" />
-								</div>
-							</div>
-						</form>
-
-				</div>
-			</section>
-
-		</div>
+		 <form action="https://Lunarus16.pythonanywhere.com/rest">
+ 			<fieldset>
+    				<legend>Get in contact with me for interesting projects or teams:</legend>
+    				Name:<br>
+    				<input type="text" name="name" value="Name"><br>
+    				Email Address:<br>
+    				<input type="text" name="email" value="Email"><br><br>
+				Message:<br>
+    				<input type="text" name="msg" value="Message"><br><br>
+    				<input type="submit" value="Submit">
+  			</fieldset>
+		 </form> 
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
